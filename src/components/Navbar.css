@@ -1,5 +1,5 @@
 .fatimes {
-  color: var(--primary-color);
+  color: darkred;
   font-size: 2rem;
 }
 .fabars {
@@ -31,6 +31,7 @@
 
 .header .nav-menu a {
   color: var(--primary-color);
+  font-weight: 600;
 }
 
 .header .navbar img {
@@ -48,19 +49,31 @@
 }
 
 .header .nav-item a:hover {
-  padding-bottom: 12px;
-  border-bottom: 3px solid var(--primary-color);
+  color: black;
+  transition: 0.1s ease-in;
 }
 
 .hamburger {
   display: none;
 }
 
+.social-container {
+  display: flex;
+  flex-direction: column;
+  top: 40%;
+  right: 0;
+  position: fixed;
+}
+
+.icons {
+  font-size: 3rem;
+}
+
 @media screen and (max-width: 1200px) {
   .header {
     height: 120px;
     max-width: 100%;
-    background-color: var(--bgc-color-nav);
+    background-color: black;
   }
 
   .header .navbar {
@@ -92,7 +105,7 @@
 
   .nav-menu.active {
     left: 0;
-    background-color: var(--bgc-color-nav);
+    background-color: black;
   }
 
   .nav-item {
@@ -102,5 +115,6 @@
 
   .header .nav-item a:hover {
     border-bottom: 0;
+    color: white;
   }
 }

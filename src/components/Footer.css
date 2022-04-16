@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  background-color: #000;
+  background-color: var(--bgc-color-nav);
   color: var(--primary-color);
   padding: 3rem 1rem;
 }
@@ -14,4 +14,10 @@
 .bottom {
   text-align: center;
   padding-top: 3rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    background-color: black;
+  }
 }
