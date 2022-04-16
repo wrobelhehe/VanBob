@@ -81,9 +81,6 @@ const Navbar = () => {
               <FaFacebook className="icons" /> Facebook
             </a>
           </li>
-          <li className="social-item">
-            <a href=""></a>
-          </li>
         </ul>
       </div>
     </div>
