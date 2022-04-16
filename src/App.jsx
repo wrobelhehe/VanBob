@@ -16,6 +16,7 @@ function App() {
   return (
     <>
       <Navbar />
+
       <Routes>
         <Route path="/home" element={<Home>/</Home>}></Route>
         <Route path="/swinki" element={<Swinki></Swinki>}></Route>

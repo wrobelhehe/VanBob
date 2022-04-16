@@ -92,6 +92,7 @@
 
   .nav-menu.active {
     left: 0;
+    background-color: var(--bgc-color-nav);
   }
 
   .nav-item {
