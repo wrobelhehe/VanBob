@@ -83,11 +83,21 @@ box-shadow: -17px 17px 20px -17px rgba(66, 68, 90, 1);
  
 }
 
-.social-item {
+
+
+.social-menu {
   margin-right: -100px;
+  transition-duration: 300ms;
+}
+.social-menu:hover {
+  margin-right: 10px;
+  transition-duration: 300ms;
+}
+
+.social-item {
+  
   height: 80px;
   width: 170px;
-transition-duration: 300ms;
 padding: 10px;
 
 
@@ -98,17 +108,8 @@ padding: 10px;
   justify-content: space-between;
   align-items: center;
   color: whitesmoke;
-
-  
-
-  
-  
 }
-.social-item:hover {
-  margin-right: 10px;
-  transition-duration: 300ms;
-  
-}
+
 
 
 

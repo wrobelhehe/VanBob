@@ -87,7 +87,7 @@ const Navbar = () => {
               <FaInstagram className="icons" /> Instagram
             </a>
           </li>
-          {/* <li className="social-item">
+          <li className="social-item">
             <a href="">
               <FaPhone className="icons" /> 793672049
             </a>
@@ -101,7 +101,7 @@ const Navbar = () => {
             <a href="">
               <FaMapMarkedAlt className="icons" /> Znajdź nas
             </a>
-          </li> */}
+          </li>
         </ul>
       </div>
     </div>
