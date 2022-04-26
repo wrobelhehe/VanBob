@@ -16,7 +16,7 @@
   align-items: flex-start;
   flex-direction: column;
   height: 100vh;
-
+margin-top: 10vh;
   width: 50vw;
 }
 
@@ -42,4 +42,68 @@ h3 {
   height: 100vh;
   width: 100%;
   background-color: black;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+  .home__container .about {
+    margin-top: 15vh;
+  }
+
+
+
+  .vanbob {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+  h1 {
+    font-size: 3rem;
+    color: var(--bgc-color-nav);
+  }
+  h2 {
+    margin: 2rem 0;
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+  h3 {
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+
+
+  
+}
+
+@media screen and (max-width: 800px) {
+
+  .home__container .about {
+    margin-top: 20vh;
+  }
+
+
+
+  .vanbob {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  h1 {
+    font-size: 2.5rem;
+    color: var(--bgc-color-nav);
+  }
+  h2 {
+    margin: 2rem 0;
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+  h3 {
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+
+
+  
 }
