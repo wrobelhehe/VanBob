@@ -5,7 +5,8 @@ import {
   FaFacebook,
   FaInstagram,
   FaPhone,
-  FaEmail,
+  FaMailBulk,
+  FaMapMarkedAlt,
 } from "react-icons/fa";
 
 import { HiOutlineMail } from "react-icons/hi";
@@ -81,6 +82,26 @@ const Navbar = () => {
               <FaFacebook className="icons" /> Facebook
             </a>
           </li>
+          <li className="social-item">
+            <a href="">
+              <FaInstagram className="icons" /> Instagram
+            </a>
+          </li>
+          {/* <li className="social-item">
+            <a href="">
+              <FaPhone className="icons" /> 793672049
+            </a>
+          </li>
+          <li className="social-item">
+            <a href="">
+              <FaMailBulk className="icons" /> E-Mail
+            </a>
+          </li>
+          <li className="social-item">
+            <a href="">
+              <FaMapMarkedAlt className="icons" /> Znajdź nas
+            </a>
+          </li> */}
         </ul>
       </div>
     </div>
