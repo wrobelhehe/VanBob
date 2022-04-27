@@ -1,7 +1,8 @@
 .footer {
   width: 100%;
-  background-color: var(--bgc-color-nav);
+  background-color: black;
   color: var(--primary-color);
+  
   padding: 3rem 1rem;
 }
 
@@ -9,6 +10,7 @@
   max-width: 1240px;
   margin: auto;
   text-align: center;
+  border-top: 1px solid whitesmoke;
 }
 
 .bottom {

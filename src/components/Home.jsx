@@ -22,6 +22,8 @@ const Home = () => {
               Krakowie.
             </h3>
           </div>
+          <div className="rewards-container">
+            <h1>Nagrody</h1>
           <div className="rewards">
             <div className="reward-item">
               <a href="/">ZŁOTA HODOWLA 2020 ROKU</a>
@@ -50,6 +52,7 @@ const Home = () => {
 
             <div className="ads-item"></div>
           </div>
+        </div>
         </div>
       </div>
     </div>

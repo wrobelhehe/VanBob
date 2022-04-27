@@ -1,6 +1,7 @@
 .container {
   display: flex;
   justify-content: center;
+  
 }
 
 .home__container {
@@ -9,15 +10,21 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  background-color: black;
+  
+  
 }
 .home__container .about {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  height: 100vh;
-margin-top: 10vh;
-  width: 50vw;
+  height: 110vh;
+padding-top: 10vh;
+padding-left: 10vw;
+  width: 100%;
+  background-color: whitesmoke;
+  border-radius: 0% 100% 100% 0% / 30% 0% 100% 70% ;
 }
 
 .vanbob {
@@ -25,8 +32,9 @@ margin-top: 10vh;
   font-weight: 400;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: var(--bgc-color-nav);
+  max-width: 70vw;
 }
 h2 {
   margin: 2rem 0;
@@ -36,12 +44,72 @@ h2 {
 h3 {
   font-weight: 300;
   font-size: 1rem;
+  max-width: 50vw;
+}
+
+.rewards-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rewards-container h1 {
+  color: whitesmoke;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  font-size: 5rem;
+  text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+  
 }
 
 .rewards {
   height: 100vh;
-  width: 100%;
-  background-color: black;
+  width: 1024px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items:center ;
+  align-items: center;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+-moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+;
+}
+
+.reward-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+width: 200px;
+height: 250px;
+background-color: whitesmoke;
+margin: 50px;
+padding: 20px;
+border-radius: 17% 83% 10% 90% / 85% 10% 90% 15%  ;
+  box-shadow: 0px 0px 5px 5px #FFFFFF;
+  transition-duration: 300ms;
+
+}
+
+.reward-item:hover {
+  background-color: rgba(255,215,0,0.9);;
+  box-shadow: 0px 0px 5px 5px rgba(255,215,0,0.9);
+  transition-duration: 300ms;
+}
+
+
+
+.reward-item a {
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.reward-item h3 {
+  color: black;
+  margin-top: 30px;
 }
 
 
@@ -49,7 +117,7 @@ h3 {
 @media screen and (max-width: 1200px) {
 
   .home__container .about {
-    margin-top: 15vh;
+    padding-top: 15vh;
   }
 
 
@@ -74,13 +142,49 @@ h3 {
 
 
 
+  .rewards {
+    height: 100%;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items:center ;
+    align-items: center;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  ;
+  }
+  
+  .reward-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  width: 300px;
+  height: 350px;
+  background-color: whitesmoke;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 17% 83% 10% 90% / 85% 10% 90% 15%  ;
+    box-shadow: 0px 0px 5px 5px #FFFFFF;
+    transition-duration: 300ms;
+  
+  }
+
+
+  .reward-item a {
+    font-size: 1.5rem;
+  }
+  .reward-item h3 {
+    font-size: 1.5rem;
+  }
   
 }
 
 @media screen and (max-width: 800px) {
 
   .home__container .about {
-    margin-top: 20vh;
+    padding-top: 15vh;
   }
 
 
@@ -92,6 +196,7 @@ h3 {
   h1 {
     font-size: 2.5rem;
     color: var(--bgc-color-nav);
+    max-width: 70vw;
   }
   h2 {
     margin: 2rem 0;
@@ -101,6 +206,7 @@ h3 {
   h3 {
     font-weight: 300;
     font-size: 1rem;
+    max-width: 40vw;
   }
 
 
