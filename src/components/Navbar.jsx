@@ -9,8 +9,7 @@ import {
   FaMapMarkedAlt,
 } from "react-icons/fa";
 
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+
 import logo from "../assets/header.png";
 
 import "./Navbar.css";
@@ -78,12 +77,12 @@ const Navbar = () => {
       <div className="social-container">
         <ul className="social-menu">
           <li className="social-item">
-            <a href="">
+            <a href="https://www.facebook.com/hodowla.van.bob/">
               <FaFacebook className="icons" /> Facebook
             </a>
           </li>
           <li className="social-item">
-            <a href="">
+            <a href="https://www.instagram.com/van.bob.caviary/">
               <FaInstagram className="icons" /> Instagram
             </a>
           </li>
